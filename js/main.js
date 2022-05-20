@@ -1,4 +1,4 @@
-function execute_1() {
+function executeSum() {
     var a = prompt("Introduzca el primer numero");
     var b = prompt("Introduzca el segundo numero");
     var c = (parseInt(a) + parseInt(b));
@@ -26,4 +26,11 @@ function changeColor(color){
     } else if(color == 'black') {
         document.getElementById('black').style.backgroundColor = 'black' ;
     }
+}
+
+function executeTime() {
+    var a = prompt("Introduzca la cantidad de minutos");
+    var b = (parseInt(a) * 60);
+
+    document.getElementById('resultTime').innerHTML = "<br><p><a href=''>" + a + "</a> minutos contienen <a href=''>" + b +  "</a> segundos</p>";
 }
