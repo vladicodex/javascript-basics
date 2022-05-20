@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EXERCISE 2</title> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>EXERCISE 2</h1>
+            <h2>Crea una pagina con varios divs y botones correspondientes que cambien los colores de los divs al hacerle click a cada boton</h2>
+        </header>
+
+        <div id="reset">
+            <button onclick="reset()">R E S E T</button><br><br>
+        </div>
+        <div id="divs">
+            <div id="blue">
+                <button onclick="changeColor('blue')">Blue</button><br><br>
+            </div>
+            <div id="green">
+                <button onclick="changeColor('green')">Green</button><br><br>
+            </div>
+            <div id="yellow">
+                <button onclick="changeColor('yellow')">Yellow</button><br><br>
+            </div>
+            <div id="red">
+                <button onclick="changeColor('red')">Red</button><br><br>
+            </div>
+            <div id="black">
+                <button onclick="changeColor('black')">Black</button><br><br>
+            </div>
+        </div>
+        <div id="home">
+            <br><a href="index.html">Go back</a>
+        </div>
+
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <footer>
+            <span>Copyright 2022 - VEJC</span>
+        </footer>
+    </body>
+</html>
