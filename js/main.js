@@ -1,7 +1,7 @@
 function executeSum() {
     var a = prompt("Introduzca el primer numero");
     var b = prompt("Introduzca el segundo numero");
-    var c = (parseInt(a) + parseInt(b));
+    var c = (parseFloat(a) + parseFloat(b));
 
     document.getElementById('result').innerHTML = "<br><p>La suma de ambos numeros es igual a: <a href='#result'>" + c + "</a></p>";
 }
@@ -30,7 +30,7 @@ function changeColor(color){
 
 function executeTime() {
     var a = prompt("Introduzca la cantidad de minutos");
-    var b = (parseInt(a) * 60);
+    var b = (parseFloat(a) * 60);
 
     document.getElementById('resultTime').innerHTML = "<br><p><a href=''>" + a + "</a> minutos contienen <a href=''>" + b +  "</a> segundos</p>";
 }
